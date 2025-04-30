@@ -1,6 +1,7 @@
 import os
 import requests
-from telegram import Update, ParseMode
+from telegram import Update
+from telegram.constants import ParseMode
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
