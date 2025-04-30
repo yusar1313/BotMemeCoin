@@ -1,0 +1,1 @@
+worker: python solana_meme_bot.py
